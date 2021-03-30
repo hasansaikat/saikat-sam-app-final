@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "saikat-sam-app-final"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1m733pte47ym6"
+s3_prefix = "saikat-sam-app-final"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "SamTableName=\"saikat_final_table\""
